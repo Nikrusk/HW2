@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        double client = 10; //начальный счет
+        double account = 10; //начальный счет
         double replenishment = 1200; //сумма пополнения
 
 
@@ -13,8 +13,8 @@ public class Main {
         } else {
             gift = 0; //если не выполняется условие, то бонусов нет
         }
-        int final_client = (int) (client+replenishment+gift); //итоговая сумма вместе с бонусами
-        System.out.println (gift);
-        System.out.println(final_client);
+        int finalAccount = (int) (account + replenishment + gift); //итоговая сумма вместе с бонусами
+        System.out.println(gift);
+        System.out.println(finalAccount);
     }
 }
